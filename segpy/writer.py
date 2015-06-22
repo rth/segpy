@@ -27,6 +27,7 @@ def write_segy(fh,
 
               seg_y_data.encoding
               seg_y_data.endian
+              seg_y_data.data_sample_format
 
               One such legitimate object would be a SegYReader instance.
 
